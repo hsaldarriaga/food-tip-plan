@@ -1,4 +1,4 @@
-<mxfile modified="2023-02-12T03:08:59.613Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="v-hwgh758Gs16q8NZOXi" version="20.8.20" type="github">
+<mxfile modified="2023-02-12T03:13:22.670Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="L83__KskXio8VFauS88N" version="20.8.20" type="github">
   <diagram id="7gcUSTIZ7YSJ5vT40chW" name="Page-1">
     <mxGraphModel dx="2074" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -41,13 +41,13 @@
           <mxGeometry x="30" y="60" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-Haki4pPXv-U89f8J86F-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="480" width="380" height="180" as="geometry" />
+          <mxGeometry x="40" y="630" width="380" height="180" as="geometry" />
         </mxCell>
         <mxCell id="-Haki4pPXv-U89f8J86F-26" value="Admin console" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="480" width="90" height="30" as="geometry" />
+          <mxGeometry x="40" y="630" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-Haki4pPXv-U89f8J86F-27" value="&lt;ul&gt;&lt;li&gt;CRUD Ingredients&lt;/li&gt;&lt;li&gt;CRUD Recipes&lt;/li&gt;&lt;li&gt;CRUD Market&lt;/li&gt;&lt;li&gt;CRUD User&lt;/li&gt;&lt;li&gt;CRUD Clients&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="510" width="180" height="90" as="geometry" />
+          <mxGeometry x="40" y="660" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-Haki4pPXv-U89f8J86F-28" value="Client&lt;br&gt;Module" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="770" y="280" width="120" height="60" as="geometry" />
@@ -56,13 +56,19 @@
           <mxGeometry x="770" y="340" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-Haki4pPXv-U89f8J86F-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="480" width="380" height="180" as="geometry" />
+          <mxGeometry x="600" y="630" width="380" height="180" as="geometry" />
         </mxCell>
         <mxCell id="-Haki4pPXv-U89f8J86F-31" value="Client App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="480" width="90" height="30" as="geometry" />
+          <mxGeometry x="600" y="630" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-Haki4pPXv-U89f8J86F-32" value="&lt;ul&gt;&lt;li&gt;Register screen&lt;/li&gt;&lt;li&gt;Recipe screen&lt;/li&gt;&lt;li&gt;Market screen&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="510" width="180" height="50" as="geometry" />
+          <mxGeometry x="600" y="660" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-Haki4pPXv-U89f8J86F-33" value="Aggregation service, present the data to the admin console and send messages to save data" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="110" y="490" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-Haki4pPXv-U89f8J86F-34" value="Aggregation service, present the data to the client app and send messages to save data" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="660" y="500" width="260" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
